@@ -1,0 +1,21 @@
+RUN INSTRUCTIONS — CNN IMAGE CLASSIFICATION
+
+1. Install Python 3.10 or 3.11.
+2. Open a terminal/command prompt inside this project folder.
+3. (Recommended) Create and activate a virtual environment:
+   Windows:
+     python -m venv .venv
+     .venv\\Scripts\\activate
+   macOS/Linux:
+     python3 -m venv .venv
+     source .venv/bin/activate
+4. Install libraries:
+     pip install -r requirements.txt
+5. Run:
+     python main.py
+
+Notes:
+- An internet connection is required on the first run to download CIFAR-10.
+- Training time depends on your computer; a GPU is optional.
+- Results are saved in the outputs/ folder.
+- This ZIP contains source code and documentation, not pre-trained model output.
